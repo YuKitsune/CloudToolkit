@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudToolkit.Email.SendGrid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudToolkit.Email.Mailgun", "CloudToolkit.Email.Mailgun\CloudToolkit.Email.Mailgun.csproj", "{E4D06F89-E36B-4F5F-9AA4-D50B12FCC468}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectStorage", "ObjectStorage", "{CF33873D-40D6-416C-A266-E85B7E1145B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudToolkit.ObjectStorage", "CloudToolkit.ObjectStorage\CloudToolkit.ObjectStorage.csproj", "{0A997443-B8B4-4BA8-AA77-92558FDCDB9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudToolkit.ObjectStorage.Azure.BlobStorage", "CloudToolkit.ObjectStorage.Azure.BlobStorage\CloudToolkit.ObjectStorage.Azure.BlobStorage.csproj", "{48D423C9-64F4-4639-AA69-BBFC309CDCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudToolkit.ObjectStorage.Amazon.SimpleStorageServices", "CloudToolkit.ObjectStorage.Amazon.SimpleStorageServices\CloudToolkit.ObjectStorage.Amazon.SimpleStorageServices.csproj", "{8E7F101C-E72F-45F3-9E2A-F2FC1339900B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +43,18 @@ Global
 		{E4D06F89-E36B-4F5F-9AA4-D50B12FCC468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4D06F89-E36B-4F5F-9AA4-D50B12FCC468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4D06F89-E36B-4F5F-9AA4-D50B12FCC468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A997443-B8B4-4BA8-AA77-92558FDCDB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A997443-B8B4-4BA8-AA77-92558FDCDB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A997443-B8B4-4BA8-AA77-92558FDCDB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A997443-B8B4-4BA8-AA77-92558FDCDB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D423C9-64F4-4639-AA69-BBFC309CDCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D423C9-64F4-4639-AA69-BBFC309CDCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D423C9-64F4-4639-AA69-BBFC309CDCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D423C9-64F4-4639-AA69-BBFC309CDCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7F101C-E72F-45F3-9E2A-F2FC1339900B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7F101C-E72F-45F3-9E2A-F2FC1339900B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7F101C-E72F-45F3-9E2A-F2FC1339900B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7F101C-E72F-45F3-9E2A-F2FC1339900B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +64,9 @@ Global
 		{9DF03C74-70AF-4BA2-8A8A-755215ADEFB5} = {71B2687C-AD09-412D-851E-F5DA62BA0E6A}
 		{C1100208-F9E8-4BCF-98CD-04C7C2185895} = {71B2687C-AD09-412D-851E-F5DA62BA0E6A}
 		{E4D06F89-E36B-4F5F-9AA4-D50B12FCC468} = {71B2687C-AD09-412D-851E-F5DA62BA0E6A}
+		{0A997443-B8B4-4BA8-AA77-92558FDCDB9B} = {CF33873D-40D6-416C-A266-E85B7E1145B4}
+		{48D423C9-64F4-4639-AA69-BBFC309CDCDD} = {CF33873D-40D6-416C-A266-E85B7E1145B4}
+		{8E7F101C-E72F-45F3-9E2A-F2FC1339900B} = {CF33873D-40D6-416C-A266-E85B7E1145B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51B83EF9-365B-4EBE-9610-E77E21B7F074}
